@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title {
+    text-align: center;
+    margin: auto;  
+    display: block; 
+}
+.list-table {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.table {
+    width: 30%;
+}
+.table img {
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+}
