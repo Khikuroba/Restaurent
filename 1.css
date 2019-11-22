@@ -2,22 +2,48 @@
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.title {
-    text-align: center;
-    margin: auto;  
-    display: block; 
+
+ul {
+    padding-inline-start: 0;
 }
+
+.Title {
+    margin: 50px auto;  
+    display: block; 
+    text-align: center;
+}
+
+.Glass-1 {
+    width: 1000px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
 .list-table {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    text-align: center;
+    justify-items: center;
 }
+
 .table {
-    width: 30%;
+    width: 33.33%;
+    justify-content: center;
+    align-items: center;
 }
+
 .table img {
     width: 120px;
     height: 120px;
     cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.detail {
+    text-align: left;
+    margin-left: 50px;
 }
